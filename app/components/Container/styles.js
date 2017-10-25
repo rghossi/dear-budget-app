@@ -4,8 +4,8 @@ const styles = EStyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
     backgroundColor: '$primaryColor',
+    paddingTop: 30,
   },
 });
 
