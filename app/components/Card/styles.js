@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
 const styles = EStyleSheet.create({
   container: {
     backgroundColor: '$lightGreen',
-    marginVertical: 20,
+    marginVertical: 10,
     marginHorizontal: 20,
     alignSelf: 'stretch',
     borderRadius: 10,

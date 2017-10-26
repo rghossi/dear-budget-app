@@ -3,9 +3,10 @@ import EStyleSheet from 'react-native-extended-stylesheet';
 const styles = EStyleSheet.create({
   container: {
     alignItems: 'center',
-    backgroundColor: '$tangerine',
+    backgroundColor: '$secondaryColor',
     paddingHorizontal: 20,
     borderRadius: 30,
+    marginVertical: 10,
   },
   wrapper: {
     flexDirection: 'row',
