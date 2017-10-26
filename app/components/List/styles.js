@@ -40,14 +40,23 @@ const styles = EStyleSheet.create({
     fontWeight: '600',
   },
   itemNumber: {
-    fontSize: 15,
+    fontSize: 13,
     alignSelf: 'flex-end',
+  },
+  amount: {
+    fontSize: 18,
+    fontWeight: '500',
   },
   verticalLine: {
     backgroundColor: '$red',
     width: 2,
     height: 50,
     marginHorizontal: 10,
+  },
+  icon: {
+    fontSize: 40,
+    minWidth: 40,
+    textAlign: 'center',
   },
   header: {
     alignItems: 'center',
@@ -61,6 +70,9 @@ const styles = EStyleSheet.create({
   },
   headerTitle: {
     fontWeight: '500',
+  },
+  bgGreen: {
+    backgroundColor: '$green',
   },
 });
 
