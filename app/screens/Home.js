@@ -2,11 +2,13 @@ import React from 'react';
 import { Text } from 'react-native';
 
 import { Container } from '../components/Container';
-import { Balance } from '../components/Balance';
+import { BalanceCard } from '../components/Card';
+import { NewTransactionButton } from '../components/Button';
 
 export default () => (
   <Container>
-    <Balance />
     <Text>Hello from Home Screen</Text>
+    <BalanceCard />
+    <NewTransactionButton />
   </Container>
 );
